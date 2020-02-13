@@ -121,6 +121,7 @@ class TestHashTable(unittest.TestCase):
         return_value = ht.retrieve("key-9")
         self.assertTrue(return_value == "val-9")
 
+
         ht.remove("key-9")
         ht.remove("key-8")
         ht.remove("key-7")
